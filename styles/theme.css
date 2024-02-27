@@ -1,9 +1,19 @@
 :root {
-  --base: #020203;
-  --accent: #0e0e15;
-  --highlight: #276fbf;
-  --light: #f6f4f3;
-  --dark: #020203;
-  --card-shadow: #3c3c5780 0px 0px 0px 2px;
+  --base-100: #010102;
+  --base-200: #020203;
+  --base-300: #4d4d67;
+  --accent-100: #0a0a12;
+  --accent-200: #0e0e15;
+  --accent-300: #555572;
+  --highlight-100: #1c56a4;
+  --highlight-200: #276fbf;
+  --highlight-300: #579ad8;
+  --light-100: #d3bab1;
+  --light-200: #f6f4f3;
+  --light-300: #f9f8f7;
+  --dark-100: #010102;
+  --dark-200: #020203;
+  --dark-300: #4d4d67;
+  --card-shadow: #55557250 0px 0px 0px 2px;
   --font-regular: [ "Open Sans Regular"];
 }

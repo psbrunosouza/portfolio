@@ -1,6 +1,11 @@
 .title {
-  background: #276fbf;
-  background: linear-gradient(to right, #276fbf 0%, #3290f7 50%, #276fbf 100%);
+  @apply text-highlight;
+  background: linear-gradient(
+    to right,
+    var(--highlight-100) 0%,
+    var(--highlight-200) 50%,
+    var(--highlight-100) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
