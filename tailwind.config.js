@@ -7,14 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'base': '#020203',
-        'accent': '#0E0E15',
-        'highlight': '#276FBF',
-        light: '#F6F4F3',
-        dark: '#020203',
+        'base': 'var(--base)',
+        'accent': 'var(--accent)',
+        'highlight': 'var(--highlight)',
+        light: 'var(--light)',
+        dark: 'var(--dark)',
       },
        fontFamily: {
-        'open-sans-regular': ['Open Sans Regular', 'Segoe UI'],
+        'open-sans-regular': 'var(--font-regular)',
       }
     },
   },
