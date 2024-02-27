@@ -15,6 +15,9 @@ export default {
       },
        fontFamily: {
         'open-sans-regular': 'var(--font-regular)',
+      },
+      boxShadow: {
+        'card-shadow': 'var(--card-shadow)',
       }
     },
   },

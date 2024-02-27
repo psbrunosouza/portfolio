@@ -4,6 +4,6 @@
   --highlight: #276fbf;
   --light: #f6f4f3;
   --dark: #020203;
-
-  --font-regular: [ "Open Sans Regular", "Segoe UI"];
+  --card-shadow: #3c3c5780 0px 0px 0px 2px;
+  --font-regular: [ "Open Sans Regular"];
 }

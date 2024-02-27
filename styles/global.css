@@ -1,7 +1,28 @@
 @layer base {
   body {
-    @apply bg-base;
     @apply text-light;
     @apply font-open-sans-regular;
+    background: radial-gradient(circle, #0e0e15 10%, transparent 11%);
+    background-size: 1em 1em;
+    background-color: #020203;
+    opacity: 1;
+  }
+
+  h1 {
+    @apply text-[48px];
+  }
+
+  h2 {
+    @apply text-[32px];
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-accent;
+    @apply h-[280px];
+    @apply min-w-[240px];
+    @apply max-w-[240px];
+    @apply shadow-card-shadow;
   }
 }

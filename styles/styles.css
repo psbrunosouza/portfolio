@@ -1,0 +1,8 @@
+@import url("/styles/tailwind");
+@import url("/styles/theme");
+@import url("/styles/global");
+
+@font-face {
+  font-family: "Open Sans Regular";
+  src: url("/fonts/open-sans-regular.ttf");
+}
