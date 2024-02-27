@@ -1,0 +1,7 @@
+@layer base {
+  body {
+    @apply bg-base;
+    @apply text-light;
+    @apply font-open-sans-regular;
+  }
+}
