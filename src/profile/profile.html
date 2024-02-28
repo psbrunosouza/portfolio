@@ -1,21 +1,53 @@
-<main>
-  <section class="flex flex-col pt-[220px] gap-2 items-center">
-    <div class="flex flex-col items-center gap-2">
-      <a href="#" class="inline-flex items-center gap-4">
-        <img
-          class="rounded-full border-2 border-highlight w-[120px] h-[120px]"
-          src="/profile.jpeg"
-          alt="Profile"
-        />
-      </a>
-      <p>Hi, I'm Bruno Souza</p>
-      <h2 class="title w-[660px] text-center" id="subtitle">
-        Software Developer
-      </h2>
-    </div>
-  </section>
+<main class="mt-[64px]">
+  <div class="grid lg:grid-cols-3 gap-24">
+    <section class="col-span-2">
+      <h2 class="font-bold mb-4">Hi, I’m Bruno</h2>
+      <p>
+        Sou um desenvolvedor de software, com habilidades em front-end,
+        back-end, mobile e jogos. Já desenvolvi diversos sistemas, desde
+        ferramentas de gerenciamento voltadas a indústria, quanto pequenos
+        portais de produtos e aplicativos. Sou apaixonado por código limpo,
+        padrões de projeto, UI/UX, responsividade e interfaces bonitas e bem
+        elaboradas.
+      </p>
+    </section>
+    <section>
+      <h2 class="font-bold mb-4">Projects</h2>
+      <ul class="inline-flex flex-col">
+        <li
+          id="winner-promotion"
+          onclick="setActiveMenu('winner-promotion')"
+          class="p-2 hover:font-bold hover:text-highlight-200 transition-all duration-200"
+        >
+          <a href="#">Winner Promotion</a>
+        </li>
+        <li
+          id="helio-noticias"
+          onclick="setActiveMenu('helio-noticias')"
+          class="p-2 hover:font-bold hover:text-highlight-200 transition-all duration-200"
+        >
+          <a href="#">Hélio Rodrigues Notícias</a>
+        </li>
 
-  <section>
-    <!-- <div class="card"></div> -->
-  </section>
+        <li
+          id="majoris-ui"
+          onclick="setActiveMenu('majoris-ui')"
+          class="p-2 hover:font-bold hover:text-highlight-200 transition-all duration-200"
+        >
+          <a href="#">Majoris UI</a>
+        </li>
+        <li
+          id="outros-trabalhos"
+          onclick="setActiveMenu('outros-trabalhos')"
+          class="p-2 hover:font-bold hover:text-highlight-200 transition-all duration-200"
+        >
+          <a href="#">Outros trabalhos</a>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <div class="mt-6">
+    <h2 class="font-bold mb-4">Proficiencies</h2>
+    <div id="proficiencies" class="inline-flex gap-2"></div>
+  </div>
 </main>

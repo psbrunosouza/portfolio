@@ -9,3 +9,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.card {
+  @apply h-[280px];
+  @apply w-[240px];
+  @apply bg-accent;
+  @apply shadow-card-shadow;
+}
+
+.active {
+  @apply text-highlight-200;
+  @apply font-bold;
+}

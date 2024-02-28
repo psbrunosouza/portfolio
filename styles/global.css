@@ -6,6 +6,7 @@
     background-size: 1em 1em;
     background-color: #020203;
     opacity: 1;
+    @apply overflow-x-hidden;
   }
 
   h1 {
@@ -14,15 +15,5 @@
 
   h2 {
     @apply text-[32px];
-  }
-}
-
-@layer components {
-  .card {
-    @apply bg-accent;
-    @apply h-[280px];
-    @apply min-w-[240px];
-    @apply max-w-[240px];
-    @apply shadow-card-shadow;
   }
 }
