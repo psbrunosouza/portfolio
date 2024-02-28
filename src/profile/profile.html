@@ -1,29 +1,19 @@
 <main class="mt-[64px]">
   <div class="grid lg:grid-cols-3 gap-24">
-    <section class="col-span-2">
-      <h2 class="font-bold mb-4">Hi, I’m Bruno</h2>
-      <p>
-        Sou um desenvolvedor de software, com habilidades em front-end,
-        back-end, mobile e jogos. Já desenvolvi diversos sistemas, desde
-        ferramentas de gerenciamento voltadas a indústria, quanto pequenos
-        portais de produtos e aplicativos. Sou apaixonado por código limpo,
-        padrões de projeto, UI/UX, responsividade e interfaces bonitas e bem
-        elaboradas.
-      </p>
-    </section>
+    <section id="profile-content" class="col-span-2"></section>
     <section>
       <h2 class="font-bold mb-4">Projects</h2>
       <ul class="inline-flex flex-col">
         <li
           id="winner-promotion"
-          onclick="setActiveMenu('winner-promotion')"
+          onclick="setProject('winner-promotion')"
           class="p-2 hover:font-bold hover:text-highlight-200 transition-all duration-200"
         >
           <a href="#">Winner Promotion</a>
         </li>
         <li
           id="helio-noticias"
-          onclick="setActiveMenu('helio-noticias')"
+          onclick="setProject('helio-noticias')"
           class="p-2 hover:font-bold hover:text-highlight-200 transition-all duration-200"
         >
           <a href="#">Hélio Rodrigues Notícias</a>
@@ -31,14 +21,14 @@
 
         <li
           id="majoris-ui"
-          onclick="setActiveMenu('majoris-ui')"
+          onclick="setProject('majoris-ui')"
           class="p-2 hover:font-bold hover:text-highlight-200 transition-all duration-200"
         >
           <a href="#">Majoris UI</a>
         </li>
         <li
           id="outros-trabalhos"
-          onclick="setActiveMenu('outros-trabalhos')"
+          onclick="setProject('outros-trabalhos')"
           class="p-2 hover:font-bold hover:text-highlight-200 transition-all duration-200"
         >
           <a href="#">Outros trabalhos</a>
