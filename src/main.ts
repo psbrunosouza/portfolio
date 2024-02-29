@@ -1,7 +1,7 @@
 import "./main.css";
 import template from "./main.html?raw";
 
-export const setProject = () => {
+export const setProjectDefault = () => {
   const profileContentRef =
     document.querySelector<HTMLDivElement>("#profile-content")!;
 
@@ -21,8 +21,8 @@ export const setProject = () => {
 };
 
 // @ts-ignore
-window.setProject = setProject;
+window.setProjectDefault = setProjectDefault;
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = template;
 document.addEventListener("DOMContentLoaded", () => {
-  setProject();
+  setProjectDefault();
 });
