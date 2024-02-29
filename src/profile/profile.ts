@@ -22,7 +22,6 @@ export const setProficiencies = (proficiencyRef: HTMLDivElement) => {
     { name: "MySQL" },
     { name: "Express" },
     { name: "Git" },
-    { name: "Docker" },
   ].forEach((proficiency) => {
     proficiencyRef.innerHTML += `<p class="p-2 bg-accent">${proficiency.name}</p>`;
   });
