@@ -1,6 +1,8 @@
-<main class="h-screen w-screen pt-[60px]">
+<main class="h-screen w-screen">
   <!-- HEADER -->
-  <nav class="w-[60%] m-auto h-[84px] flex justify-between items-center">
+  <nav
+    class="lg:w-[60%] w-[90%] m-auto h-[84px] flex justify-between items-center lg:pt-[60px]"
+  >
     <div class="flex items-center gap-4">
       <a
         onclick="setProjectDefault()"
@@ -9,7 +11,7 @@
       >
         <img class="w-[48px] h-[48px]" src="/profile.jpeg" alt="Profile" />
       </a>
-      <p>psbrunosouza@gmail.com</p>
+      <p class="hidden md:block">psbrunosouza@gmail.com</p>
     </div>
 
     <ul class="flex gap-2">
@@ -34,5 +36,5 @@
   </nav>
 
   <!-- CONTENT -->
-  <section class="w-[60%] m-auto mt-[36px]" id="content"></section>
+  <section class="lg:w-[60%] w-[90%] m-auto my-[36px]" id="content"></section>
 </main>
