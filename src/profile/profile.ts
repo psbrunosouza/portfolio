@@ -42,6 +42,7 @@ export const setProject = (id: string) => {
         utilizamos o React como base para o frot-end e Node JS para a construção do back-end 
         além de outras tecnologias como: Prisma, PostgreSQL, Express.
       </p>
+      
       <ul class="flex gap-2 mt-4">
         <li>
           <a 
@@ -55,8 +56,40 @@ export const setProject = (id: string) => {
     {
       key: "helio-noticias",
       content: `
-      <h2 class="font-bold mb-4">Hélio Rodrigues Notícias</h2>
-      <p></p>
+      <h2 class="font-bold mb-4">Hélio Notícias App</h2>
+      <p>
+        O Hélio Notícias App é um aplicativo que permite acompanhar o trabalho empreendido pelo veredor Hélio Rodrigues.
+        Através deste aplicativo é possível acompanhar o progresso e o andamento do trabalho empreendido pelo veredor, através
+        das demandas e da agenda de trabalho. Até o presente momento a aplicação foi descontinuada.
+        
+      </p>
+      `,
+    },
+    {
+      key: "majoris-ui",
+      content: `
+      <h2 class="font-bold mb-4">Majoris UI</h2>
+      <p>
+        Uma bibliteca de componentes construídos com Angular, para utilizar principalmente em projetos front-end angular. 
+        O Majoris UI foi desenvolvido para ser utilizado em aplicativos mobile e desktop. Ainda em em desenvolvimento, mas se desejar
+        acompanhar e fazer contribuições, acesse o repositório no GitHub. 
+        A biblioteca possuirá componentes como: Inputs, Buttons, Cards, Toasts, Alerts, etc. Porém componentes mais complexos, como: 
+        Tables, Charts, etc.
+      </p>
+      <ul class="flex gap-2 mt-4">
+        <li>
+          <a 
+            class="inline-flex p-2 bg-highlight text-light items-center gap-2 font-bold" target="_blank" href="https://github.com/majoris-ui/majoris-ui">
+            <p>Github</p>
+          </a>
+        </li>
+        <li>
+          <a 
+            class="inline-flex p-2 bg-highlight text-light items-center gap-2 font-bold" target="_blank" href="https://www.npmjs.com/package/@majoris-org/majoris-ui">
+            <p>NPM</p>
+          </a>
+        </li>
+      </ul>
       `,
     },
   ];
