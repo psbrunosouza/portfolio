@@ -25,6 +25,12 @@ export default {
           '200': 'var(--highlight-200)',
           '300': 'var(--highlight-300)',
         },
+        danger: {
+          'DEFAULT': 'var(--danger-200)',
+          '100': 'var(--danger-100)',
+          '200': 'var(--danger-200)',
+          '300': 'var(--danger-300)',
+        },
         light: {
           'DEFAULT': 'var(--light-200)',
           '100': 'var(--light-100)',

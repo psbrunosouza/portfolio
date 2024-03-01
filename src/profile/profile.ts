@@ -41,13 +41,13 @@ export const setProject = (id: string) => {
       <div class="flex items-center gap-4 mb-4">
         <h2 class="font-bold">Winner Promotion</h2>
         <ul class="flex gap-2">
-            <li>
-              <a 
-                class="inline-flex p-2 bg-highlight text-light items-center gap-2 font-bold" target="_blank" href="https://www.winnerpromotion.com/">
-                <p>Site</p>
-              </a>
-            </li>
-          </ul>
+          <li>
+            <a 
+              class="inline-flex p-2 bg-highlight text-light items-center gap-2 font-bold" target="_blank" href="https://www.winnerpromotion.com/">
+              <p>Ver Site</p>
+            </a>
+          </li>
+        </ul>
       </div>
       
       <p>
@@ -81,7 +81,18 @@ export const setProject = (id: string) => {
     {
       key: "helio-noticias",
       content: `
-      <h2 class="font-bold mb-4">Hélio Notícias App</h2>
+      <div class="flex items-center gap-4 mb-4">
+        <h2 class="font-bold ">Hélio Notícias App</h2>
+        <ul class="flex gap-2">
+          <li>
+            <a 
+              class="inline-flex p-2 bg-danger text-light items-center gap-2 font-bold">
+              <p>Descontinuado</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+      
       <p>
         O Hélio Notícias App é um aplicativo que permite acompanhar o trabalho empreendido pelo veredor Hélio Rodrigues.
         Através deste aplicativo é possível acompanhar o progresso e o andamento do trabalho empreendido pelo veredor, através

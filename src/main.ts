@@ -6,9 +6,9 @@ export const setProjectDefault = () => {
     document.querySelector<HTMLDivElement>("#profile-content")!;
 
   const profileContent: string = `
-    <h2 class="font-bold mb-4">Hi, I’m Bruno</h2>
+    <h2 class="font-bold mb-4">Seja bem vindo,</h2>
     <p>
-      Sou um desenvolvedor de software, com habilidades em front-end,
+      me chamo Bruno sou um desenvolvedor de software, com habilidades em front-end,
       back-end, mobile e jogos. Já desenvolvi diversos sistemas, desde
       ferramentas de gerenciamento voltadas a indústria, quanto pequenos
       portais de produtos e aplicativos. Sou apaixonado por código limpo,
