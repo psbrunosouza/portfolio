@@ -12,27 +12,25 @@ export const setProjectDefault = () => {
       ${i18next.t("main.description")}
     </p>
 
-    <h3 class="my-4">Experiências</h3>
+    <h3 class="my-4">${i18next.t("main.experiences.title")}</h3>
     <h4>Ekaizen Digital</h4>
     <p>
-      Atualmente atuo na <strong>Ekaizen Digital</strong> e estou trabalhando como desenvolvedor frontend.
-      Minha principal responsabilidade reside na criação de interfaces Angular voltadas a ferramentas industriais e de gerênciamento como:
-      Gestão de pessoas, gestão de recursos, gestão de produtos, etc. 
+      ${i18next.t("main.experiences.ekaizen.description")}
     </p>
 
     <h4 class="mt-4">Topzap</h4>
     <p>
-      Atuei como desenvolvedor Fullstack, trabalhando na ferramenta principal da empresa, <strong>Topzap</strong>.
-      Uma ferramenta de gestão de condominios que permitia acompanhar as ocorrências enviadas pelos residêntes através da API do whatsapp.
+      ${i18next.t("main.experiences.topzap.description")}
     </p>
   `;
 
   profileContentRef.innerHTML = profileContent;
 };
 
-// @ts-ignore
-window.setProjectDefault = setProjectDefault;
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = template;
 document.addEventListener("DOMContentLoaded", () => {
   setProjectDefault();
 });
+
+// @ts-ignore
+window.setProjectDefault = setProjectDefault;
