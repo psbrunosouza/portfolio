@@ -1,3 +1,4 @@
+import i18next from "i18next";
 import "./profile.css";
 import template from "./profile.html?raw";
 
@@ -44,14 +45,14 @@ export const setProject = (id: string) => {
           <li>
             <a 
               class="inline-flex p-2 bg-highlight text-light items-center gap-2 font-bold" target="_blank" href="https://www.winnerpromotion.com/">
-              <p>Ver Site</p>
+              <p>${i18next.t("buttons.seeSite")}</p>
             </a>
           </li>
         </ul>
       </div>
       
       <p>
-        A Winner Promotion é uma aplicação online para gestão de brindes corporativos.
+        ${i18next.t("projects.winnerPromotion.description")}
       </p>
       
 

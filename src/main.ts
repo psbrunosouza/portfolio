@@ -1,3 +1,4 @@
+import i18next from "i18next";
 import "./main.css";
 import template from "./main.html?raw";
 
@@ -6,14 +7,9 @@ export const setProjectDefault = () => {
     document.querySelector<HTMLDivElement>("#profile-content")!;
 
   const profileContent: string = `
-    <h2 class="font-bold mb-4">Seja bem vindo,</h2>
+    <h2 class="font-bold mb-4">${i18next.t("main.title")}</h2>
     <p>
-      me chamo Bruno sou um desenvolvedor de software, com habilidades em front-end,
-      back-end, mobile e jogos. Já desenvolvi diversos sistemas, desde
-      ferramentas de gerenciamento voltadas a indústria, quanto pequenos
-      portais de produtos e aplicativos. Sou apaixonado por código limpo,
-      padrões de projeto, UI/UX, responsividade e interfaces bonitas e bem
-      elaboradas.
+      ${i18next.t("main.description")}
     </p>
 
     <h3 class="my-4">Experiências</h3>
