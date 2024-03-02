@@ -39,8 +39,8 @@ export const setProject = (id: string) => {
     {
       key: "winner-promotion",
       content: `
-      <div class="flex items-center gap-4 mb-4">
-        <h2 class="font-bold">Winner Promotion</h2>
+      <div class="flex items-center justify-between lg:justify-start gap-4 mb-4">
+        <h2 class=" font-bold">Winner Promotion</h2>
         <ul class="flex gap-2">
           <li>
             <a 
@@ -56,17 +56,17 @@ export const setProject = (id: string) => {
       </p>
       
 
-      <h4 class="font-bold mt-4">
+      <h3 class="font-bold mt-4">
         ${i18next.t("projects.functionalities")}
-      </h4>
-      <ul class="list-disc">
+      </h3>
+      <ul class="list-disc ml-6 ">
         ${i18next.t("projects.winnerPromotion.functionalities")}
       </ul>
 
-      <h4 class="font-bold mt-4">
+      <h3 class="font-bold mt-4">
         ${i18next.t("projects.tecnologies")}
-      </h4>
-      <ul class="list-disc">
+      </h3>
+      <ul class="list-disc ml-6 ">
         ${i18next.t("projects.winnerPromotion.tecnologies")}
       </ul>
     `,
@@ -74,7 +74,7 @@ export const setProject = (id: string) => {
     {
       key: "helio-news",
       content: `
-      <div class="flex items-center gap-4 mb-4">
+      <div class="flex items-center justify-between lg:justify-start gap-4 mb-4">
         <h2 class="font-bold ">Hélio Notícias App</h2>
         <ul class="flex gap-2">
           <li>
@@ -90,17 +90,17 @@ export const setProject = (id: string) => {
         ${i18next.t("projects.helioNews.description")}
       </p>
 
-       <h4 class="font-bold mt-4">
+       <h3 class="font-bold mt-4">
         ${i18next.t("projects.functionalities")}
-      </h4>
-      <ul class="list-disc">
+      </h3>
+      <ul class="list-disc ml-6 ">
         ${i18next.t("projects.helioNews.functionalities")}
       </ul>
 
-      <h4 class="font-bold mt-4">
+      <h3 class="font-bold mt-4">
         ${i18next.t("projects.tecnologies")}
-      </h4>
-      <ul class="list-disc">
+      </h3>
+      <ul class="list-disc ml-6 ">
         ${i18next.t("projects.helioNews.tecnologies")}
       </ul>
       `,
@@ -108,7 +108,7 @@ export const setProject = (id: string) => {
     {
       key: "majoris-ui",
       content: `
-      <div class="flex items-center gap-4 mb-4">
+      <div class="flex items-center justify-between lg:justify-start gap-4 mb-4">
         <h2 class="font-bold">Majoris UI</h2>
         <ul class="flex gap-2">
           <li>

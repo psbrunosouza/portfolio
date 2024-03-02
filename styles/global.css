@@ -10,22 +10,17 @@
   }
 
   h1 {
-    @apply text-[48px];
+    @apply md:text-[46px] text-[26px];
     @apply font-bold;
   }
 
   h2 {
-    @apply text-[32px];
+    @apply md:text-[30px] text-[24px];
     @apply font-bold;
   }
 
   h3 {
-    @apply text-[26px];
-    @apply font-bold;
-  }
-
-  h4 {
-    @apply text-[20px];
+    @apply md:text-[24px] text-[22px];
     @apply font-bold;
   }
 }
