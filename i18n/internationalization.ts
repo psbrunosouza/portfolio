@@ -1,7 +1,7 @@
 import i18next from "i18next";
 
 i18next.init({
-  lng: "en",
+  lng: localStorage.getItem("lng") || "en",
   debug: true,
   resources: {
     en: {
@@ -96,7 +96,7 @@ i18next.init({
         },
       },
     },
-    pt: {
+    br: {
       translation: {
         main: {
           title: "Seja bem vindo,",
@@ -190,4 +190,9 @@ i18next.init({
       },
     },
   },
+});
+
+i18next.on("languageChanged", (lng) => {
+  localStorage.setItem("lng", lng);
+  location.reload();
 });

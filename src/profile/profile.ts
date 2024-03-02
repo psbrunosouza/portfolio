@@ -135,7 +135,10 @@ export const setProject = (id: string) => {
 
   setActiveMenu(id);
   profileContentRef.innerHTML =
-    profileContents.find((content) => content.key === id)?.content || "";
+    profileContents.find(
+      (content) =>
+        `${content.key}-mobile` === id || `${content.key}-desktop` === id
+    )?.content || "";
 };
 
 export const setActiveMenu = (id: string) => {
